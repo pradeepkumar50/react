@@ -64,7 +64,7 @@ function Header() {
 
   return (
     <header className="header footer">
-      <h1 style={styling}>K---P Firefly Grill</h1>
+      <h1 style={styling}>KP Firefly Grill</h1>
     </header>
   );
 }
@@ -77,7 +77,7 @@ function Menu() {
   return (
     <main className="menu">
       {/*  tailwindcss */}
-      <h2 className="text-xl text-yellow-500 font-semibold">Our Menu</h2>
+      <h2 className= "text-xl text-yellow-500 font-semibold" >Our Menu</h2>
       {numPizzas > 0 ? (
         <ul className="pizzas">
           {pizzaData.map((pizza) => (
